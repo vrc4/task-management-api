@@ -1,5 +1,25 @@
+# Python cache and compiled files
 __pycache__/
 *.pyc
-*.db
-.env
+*.pyo
+*.pyd
+
+# Virtual environment
 TM-API-env/
+venv/
+env/
+
+# SQLite database
+*.db
+
+# Environment variables
+.env
+
+# VS Code settings (optional, if you don't want to share workspace settings)
+.vscode/
+
+# Test output
+*.log
+
+# OS files
+.DS_Store
