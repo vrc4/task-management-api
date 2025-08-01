@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+databases[sqlite]
+psycopg2-binary
+python-dotenv
+passlib[bcrypt]
+pydantic
+pytest
